@@ -1,0 +1,6 @@
+@AMAPMAPI_HostAddress = http://localhost:5014
+
+GET {{AMAPMAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
