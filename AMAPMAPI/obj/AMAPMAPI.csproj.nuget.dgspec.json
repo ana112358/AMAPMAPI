@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Ana Paula\\Documents\\Estudos\\API_ASP.NET\\AMAPMAPI\\AMAPMAPI\\AMAPMAPI.csproj": {}
+    "C:\\Users\\09318724489\\Source\\Repos\\AMAPMAPI\\AMAPMAPI\\AMAPMAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Ana Paula\\Documents\\Estudos\\API_ASP.NET\\AMAPMAPI\\AMAPMAPI\\AMAPMAPI.csproj": {
+    "C:\\Users\\09318724489\\Source\\Repos\\AMAPMAPI\\AMAPMAPI\\AMAPMAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Ana Paula\\Documents\\Estudos\\API_ASP.NET\\AMAPMAPI\\AMAPMAPI\\AMAPMAPI.csproj",
+        "projectUniqueName": "C:\\Users\\09318724489\\Source\\Repos\\AMAPMAPI\\AMAPMAPI\\AMAPMAPI.csproj",
         "projectName": "AMAPMAPI",
-        "projectPath": "C:\\Users\\Ana Paula\\Documents\\Estudos\\API_ASP.NET\\AMAPMAPI\\AMAPMAPI\\AMAPMAPI.csproj",
-        "packagesPath": "C:\\Users\\Ana Paula\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Ana Paula\\Documents\\Estudos\\API_ASP.NET\\AMAPMAPI\\AMAPMAPI\\obj\\",
+        "projectPath": "C:\\Users\\09318724489\\Source\\Repos\\AMAPMAPI\\AMAPMAPI\\AMAPMAPI.csproj",
+        "packagesPath": "C:\\Users\\09318724489\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\09318724489\\Source\\Repos\\AMAPMAPI\\AMAPMAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Ana Paula\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\09318724489\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -45,7 +45,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -56,6 +56,8 @@
               "version": "[9.0.2, )"
             },
             "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[9.0.9, )"
             },
@@ -87,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
